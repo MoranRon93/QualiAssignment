@@ -1,30 +1,35 @@
-Terraform AWS Bucket with Torque
+⚡ Terraform AWS Bucket Automation with Torque
 
-This repo demonstrates how Torque automates AWS S3 bucket creation with minimal setup.
+Automate AWS S3 bucket creation using Torque and Terraform, reducing manual setup and preventing errors.
 
-Benefits
+✅ Key Benefits
 
-Quick Setup: Create buckets automatically using Terraform.
+Fast & Easy: Spin up AWS buckets in minutes.
 
-Error Handling: Automatic name increment prevents collisions.
+Automatic Name Handling: Avoid naming collisions with an incrementing counter.
 
-Seamless Integration: Works with your AWS credentials and IAM user.
+Seamless AWS Integration: Works directly with your IAM user credentials.
 
-Setup
+Reliable: Built-in troubleshooting for common errors.
 
-Clone the repo:
+🛠️ Setup Instructions
+
+Clone the Repository
 
 git clone <repo-url>
 cd <repo-folder>
 
 
-Configure AWS credentials:
+Configure AWS Credentials
 
 aws configure
 
 
-Initialize and apply Terraform:
+Provide your Access Key, Secret Key, default region, and output format.
 
-terraform init
-terraform apply
+Run the Setup Script
 
+./setup.sh
+
+
+This script handles all Terraform initialization and bucket creation automatically.
